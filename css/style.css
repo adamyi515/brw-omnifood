@@ -1,0 +1,41 @@
+/* NOTES
+1. TYPOGRAPHY SYSTEM -----
+10, 12, 14, 16, 18, 20, 24, 30, 36, 44, 52, 62, 74, 86, 98
+
+
+2. SPACE SYSTEM -----
+2, 4, 6, 8, 10, 12, 16, 24, 32, 48, 64, 80, 96, 128
+
+3. COLORS -----
+Primary         = #e67e22
+Tints (lighter) =
+Shades (darker) = 
+Grey            = #555
+
+4. SHADOWS
+
+
+5. BORDER-RADIUS
+
+
+*/
+/*** GLOBAL ********************************************************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /** SET the default px to 10 px. It is at 16px by default. 10/16 =  **/
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+/*** GENERAL/UTILITIES ********************************************************************************/
