@@ -27,7 +27,7 @@ Grey            = #555
 }
 
 html {
-    /** SET the default px to 10 px. It is at 16px by default. 10/16 =  **/
+    /** SET the default px to 10 px. It is at 16px by default. 10/16 = .625 **/
     font-size: 62.5%;
 }
 
