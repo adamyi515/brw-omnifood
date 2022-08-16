@@ -39,3 +39,14 @@ body {
 }
 
 /*** GENERAL/UTILITIES ********************************************************************************/
+/*** SECTION - HERO ********************************************************************************/
+.hero {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+}
