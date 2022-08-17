@@ -50,7 +50,7 @@ body {
 
 /***** MARGIN SPACING *****/
 .margin-right-sm {
-    margin-right: 1.6rem IM !important;
+    margin-right: 1.6rem !important;
 }
 
 
@@ -139,6 +139,11 @@ body {
 
 .delivered-text {
     font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.delivered-text span {
+    color: #cf711f;
     font-weight: 600;
 }
 
