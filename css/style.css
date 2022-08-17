@@ -142,6 +142,11 @@ body {
     font-weight: 600;
 }
 
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 600;
+}
+
 .hero-img {
     width: 100%;
 }
