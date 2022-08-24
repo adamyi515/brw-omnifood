@@ -99,6 +99,7 @@ body {
 
 
 /***** BUTTON *****/
+.btn,
 .btn:link,
 .btn:visited {
     font-size: 2rem;
@@ -107,6 +108,10 @@ body {
     text-decoration: none;
     border-radius: 9px;
     display: inline-block;
+
+    /* Only for form button */
+    border: none;
+    cursor: pointer;
 
     transition: all .3s;
 }
@@ -132,6 +137,18 @@ body {
     /* border: 3px solid #fff; */
     /** IMPORTANT - Created the border INSIDE of the element rather than outside (which moves shifts elements) **/
     box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover {
+    background-color: #fff;
+    color: #555;
 }
 
 /***** LIST STYLING *****/
