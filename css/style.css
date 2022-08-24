@@ -334,7 +334,6 @@ background-color: #ffd43b;
 
 .pricing-plan {
     border-radius: 11px;
-    
     width: 75%;
 }
 
@@ -403,3 +402,38 @@ color: #6f6f6f;
     margin-top: 4.8rem;
     text-align: center;
 }
+
+.plan-details {
+    font-size: 1.6rem;
+    font-weight: 1.6;
+    text-align: center;
+}
+
+/*** SECTION - FEATURED  ********************************************************************************/
+.feature {
+
+}
+
+.feature-icon {
+    color: #e67e22;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
+    margin-bottom: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+
