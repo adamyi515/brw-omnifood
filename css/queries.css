@@ -1,0 +1,61 @@
+/* 
+Queries do not use the default 1rem = 1em = 10px that we defined
+on our html selector (10/16 = 10px for font-size)
+
+*/
+/**************************************************************/
+/***** MEDIA QUERIES *****/
+/* Breakpoint = 1344px, which is 1350/16 = 84em */
+@media(max-width: 84em){
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Breakpoint = 1200px, 1200/16 = 75em */
+@media(max-width: 75em){
+    /* Scaling the whole page (font and spacing) */
+    html {
+        /* From 10 px to 9px */
+        font-size: 56.25%;
+    }
+
+    .grid {
+        row-gap: 4.8rem;
+        column-gap: 6.4rem;
+    }
+
+    .heading-secondary {
+        font-size: 3.6rem;
+    }
+
+    .heading-tertiary {
+        font-size: 2.4rem;
+    }
+
+    /***** SECTION - HEADING  *****/
+    .header {
+        padding: 0 3.2rem;
+    }
+
+    .main-nav-list {
+        gap: 3.2rem;
+    }
+
+    /***** SECTION - HERO *****/
+    .hero {
+        gap: 4.8rem;
+    }
+    /***** SECTION - TESTIMONIALS *****/
+    .testimonials-container {
+        padding: 9.6rem 3.2rem;
+    }
+}
